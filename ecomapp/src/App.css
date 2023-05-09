@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  color: #c22828;
+}
+
+.carditem{
+  border-radius: 10%;
+  border: black;
+ 
+  background-color: black;
+ width: 23.12%;
+  margin-right: 40%;
+  justify-content: center;
+  padding: 0%;
+  border-color: black;
+  
+}
+.cardbody{
+  border-radius: 0%;
+  border: black;
+  width: 40%;
+  padding-left: 0%;
+  justify-content: center;
+  align-content: center;
+  
+}
+.cardimg{
+  border-radius: 0%;
+  width:fit-content;
+ 
+  
+  
+}
