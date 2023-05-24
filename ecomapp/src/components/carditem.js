@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button,Row,Card,CardTitle,CardBody,CardSubtitle,CardText ,Col,CardImg, CardGroup} from 'reactstrap';
-
+import ICON from './../RESOURCES/pexels3.jpeg';
 function card () {
   return (
     
@@ -10,15 +10,17 @@ function card () {
   <Card className='carditem'>
     
     <CardBody className='cardbody'>
-    
-      <CardTitle tag="h5">
+    <div className='carddescrip'>
+      <CardTitle tag="h5"> 
       <CardImg className='cardimg'
       alt="Card image cap"
-      src="https://picsum.photos/318/180"
+      src={ICON}
       
     />
         Card title
+        
       </CardTitle>
+      <div className='carddescri'>
       <CardSubtitle
         
       >
@@ -27,9 +29,11 @@ function card () {
       <CardText>
         This card has supporting text below as a natural lead-in to additional content.
       </CardText>
-      <Button>
-        Button
+      <Button className='button'>
+        PLACE ORDER
       </Button>
+      </div>
+      </div>
     </CardBody>
   </Card>
   
